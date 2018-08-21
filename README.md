@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an example of an API built using the feed from openweathermap.org
+It was created using prompts from the Code Immersion course with Tech Talent South
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Ruby version is 2.3.3
+- Rails version is 5.1.6
+- Application has been prepared for deployment, use the url:
+			https://openweather-api.herokuapp.com/
+			- or -
+- Clone it to your local machine and run on your local rails server, 
+    then direct a browser window to localhost port 3000
