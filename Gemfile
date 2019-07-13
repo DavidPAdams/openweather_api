@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'jquery-rails'
-gem 'bootstrap-sass'
+gem "bootstrap-sass", ">= 3.4.1"
 gem 'httparty'
 gem 'figaro'
 gem 'better_errors'
@@ -47,7 +47,7 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3', '< 1.4'
 end
 
 group :production do
